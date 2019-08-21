@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>SMSF Auditing tool - made by Stefanos Bekiaris</title>
+  <script type="text/javascript" src="cons.js"></script>
+  <link rel="stylesheet" type="text/css" href="./bootstrap.css">
+</head>
+
+<body onload="create()">
+  <form>
+    <div class="container">
+      <div style="padding:15%">
+        <div class="card">
+          <label class="btn btn-info">SMSF Name </label>
+          <input class="form-control form-control-lg" id="smsfName" type="text"></br>
+          <label class="btn btn-info">SMSF ABN </label>
+          <input class="form-control form-control-lg" id="smsfAbn" type="text"></br>
+          <label class="btn btn-info">Audit Year </label>
+          <input class="form-control form-control-lg" id="smsfYear" type="text">
+        </div>
+      </div>
+      <div class="form-group">
+        <div style="white-space: pre" class="custom-control custom-checkbox" id="div">
+        </div>
+      </div>
+      <button class="btn btn-info" id="btnEd" type="button" onclick="cons()">Save Answers</button>
+    </div>
+  </form>
+
+</body>
+
+</html>

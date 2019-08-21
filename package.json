@@ -1,0 +1,26 @@
+{
+  "name": "electrojs",
+  "version": "1.0.0",
+  "description": "Auditing tool for SMSFs",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkstephen/Auditing_tool_ELECTRONJS_PROPJECT.git"
+  },
+  "author": "Stefanos Bekiaris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bkstephen/Auditing_tool_ELECTRONJS_PROPJECT/issues"
+  },
+  "homepage": "https://github.com/bkstephen/Auditing_tool_ELECTRONJS_PROPJECT#readme",
+  "dependencies": {
+    "ejs-electron": "^2.0.3",
+    "excel4node": "^1.7.2",
+    "xlsexport": "^1.5.2",
+    "xlsx": "^0.15.1"
+  }
+}
