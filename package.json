@@ -21,6 +21,6 @@
     "ejs-electron": "^2.0.3",
     "excel4node": "^1.7.2",
     "xlsexport": "^1.5.2",
-    "xlsx": "^0.15.1"
+    "xlsx": "^0.17.0"
   }
 }
