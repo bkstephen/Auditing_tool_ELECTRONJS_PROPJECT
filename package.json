@@ -19,7 +19,7 @@
   "homepage": "https://github.com/bkstephen/Auditing_tool_ELECTRONJS_PROPJECT#readme",
   "dependencies": {
     "ejs-electron": "^2.0.3",
-    "excel4node": "^1.7.2",
+    "excel4node": "^1.8.0",
     "xlsexport": "^1.5.2",
     "xlsx": "^0.15.1"
   }
